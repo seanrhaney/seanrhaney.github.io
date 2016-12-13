@@ -1,26 +1,30 @@
 <h2>Projects</h2>
-<h3> Stokes modified mixed layer instabilities </h3>
+<li><h4> Surface wave/internal wave interactions </h4></li>
+Surface gravity waves produce a net drift in the direction of wave propagation called Stokes drift. For groups of waves, the Stokes drift is larger in the center of the group where the wave amplitude is larger, and then vanishes in front and behinf the group. The particle trajectories for a group of surface gravity waves with modulated amplitude are shown in the video below.
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/XGSy3_Czz8k">
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/oPplzgEcyGc?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<p><b>S. Haney</b>, S. Bachman, B. Cooper, S. Kupper, K. McCaffrey, L. Van Roekel, S. Stevenson,
-B. Fox-Kemper, and R. Ferrari, Hurricane wake restratification rates of 1, 2 and 3-dimensional
-processes: 2013. Journal of Marine Research, In Press. <a href="files/HaneyBachman_2013.pdf">(pdf)</a><p>
+<p>Since the strength of the Stokes varies within the wave group, there is a divergence in the mass transport. This pushes water down in the front of the group, and brings it up in the rear, creating a deep return flow. This flow can then wiggle the isopycnals of the underlying stratification, thereby making internal gravity waves. It turns out that this flux of energy from surface to internal waves is too weak to be relevant for the surface waves (the group would travel multiple times around the Earth before losing half it's amplitude!), but this may help explain the observed spectral peak in high frequency internal waves. This work is in collaboration with <a href="http://pordlabs.ucsd.edu/wryoung/"> Prof. William Young</a>, and will soon be submitted to the Journal of Fluid Mechanics.
 
-<h3> 2012 </h3>
-L. P. Van Roekel, B. Fox-Kemper, P. P. Sullivan, P. E. Hamlington, and <b>S. R. Haney</b>,
-The form and orientation of Langmuir Cells for misaligned winds and waves: 2012. Journal
-of Geophysical Research-Oceans, 117:C05001, 22pp. (<a href="http://dx.doi.org/10.1029/2011JC007516">doi</a>)
+<li><h4> Submesoscale instabilities in the Bay of Bengal</h4></li>
+The Bay of Bengal receives a tremendous amount of fresh water input from rivers in the north. These fresh waters butt up against saltier waters of the Indian Ocean creating very strong horizontal density gradients that are salt stratified. The mixed layers in and around these fronts can be as shallow as a several meters. I am currently using a linear stability code that I developed during my Ph.D.(see chapter 3 of my <a href="files/Haney_thesis.pdf">thesis</a>) to analyze these frontal regions. This work is in colloaboration with <a href="http://pordlabs.ucsd.edu/jen/"> Prof. Jennifer MacKinnon</a> and is still in the early stages, but <a href="http://tos.org/oceanography/issue/volume-29-issue-02"> here</a> is some of the latest great work that has been done on the Air-Sea Interactions in the Northern Indian Ocean - Regional Initiative (ASIRI) project.
 
-<h2>Presentations and Posters</h2>
 
-<h3> 2013 </h3>
-<p><b>S. Haney</b>, B. Fox-Kemper, K. Julien, 2013: Instabilities in the Stratied, Wave-Forced Ocean Mixed Layer. 19th Conference on Atmospheric and Oceanic Fluid Dynamics, Poster Session,
-Newport, Rhode Island, June 17-21.<a href="files/Haney_AOFD.pdf">Poster (pdf)</a>)<p>
-<p><b>S. Haney</b>, B. Fox-Kemper, K. Julien, 2013: Instabilities in the Stratied, Wave-Forced Ocean Mixed Layer. 33rd Center for Nonlinear Studies (CNLS) Annual Conference: Ocean Turbulence, Poster Session, Santa Fe, New Mexico, June 3-7.
+<li><h4> Surface wave modified submesoscale instabilities </h4></li>
 
-<h3> 2012 </h3>
-<p><b>S. Haney</b>, B. Fox-Kemper, S. Bachman, B. Cooper, S. Kupper, K. McCaffrey, S. Stevenson, L. Van Roekel, A. Webb, R. Ferrari, 2012: Hurricane Wake Restratification Mechanisms. CIRES Rendezvous 2012 Poster Session, Boulder, Colorado, April 24th.</p>
-<p><b>S. Haney</b>, B. Fox-Kemper, S. Bachman, B. Cooper, S. Kupper, K. McCaffrey, S. Stevenson, L. Van Roekel, A. Webb, R. Ferrari, 2012: Hurricane Wake Restratification Mechanisms. American Geophysical Union Ocean Sciences Meeting 2012, Salt Lake City, Utah, February 20-24.</p>
+<p><!-- Density fronts in the ocean mixed layer --> The Stokes drift associated with surface waves results in a Stokes Coriolis force, and a Stokes sheer force that may modify the mean and turbulent flows in the ocean mixed layer. Here is a video of symmetric instabilities in the absence of Stokes drift.<p>
+
+<!--Global climate models that include submesoscale eddy parametrizations have shown systematically shallow mixed layer depths.  One possible explanation for this is that the mixing effects of waves are not included in any parametrization.  Submesoscale eddies use the available potential energy in a submesoscale front to restratify the mixed layer.  This is often referred to as mixing or stirring by eddies, but in fact, the eddies are <b>UN</b>mixing in the vertical direction.  At the same time, the waves induce a net current in the direction of propagation called stokes drift, which is strong at the surface, but decays exponentially with depth.  The stokes drift tilts vorticity anomalies into the direction of wave propagation causing counter-rotating vortices aligned (or anti-aligned) with the wave direction.  These counter-rotating vortices have zones of surface convergence and divergence.  Along the convergence zones, the surface wind stress greatly accelerates flow in the downwind direction, and thus helps to increase the vertical vorticity that creates the Langmuir cell after tilting by Stokes drift.  Since the Stokes drift has tilted a vertical vorticiy anomaly into the horizontal, that increases the cross wind and vertical velocities, and therefore mixes the upper ocean vertically.  It is this compettion between unmixing by eddies, and mixing by waves and winds that is of great interest.  To know if and when the respective mechanisms matter, i.e. is there some parameter of the larger scale flow that can help explain when the temperature gradients are important, and when the waves and winds are important.  But even more then that, one might want to know how these mechanisms interact.  To study this,-->
+
+
+<iframe width="854" height="480" src="https://www.youtube.com/embed/2kUz5l3P5bw"
+	frameborder="0" allowfullscreen></iframe>
+
+
+<p>This work is published here <a href="files/Haney_Fox-Kemper15.pdf">(pdf)</a>
+    <a href="http://dx.doi.org/10.1175/JPO-D-15-0044.1">(doi)</a>.
+
+<li><h4> Hurricane Wake Restratification </h4></li>
+When a hurricane passes over the ocean, intense winds mix the upper ocean mixed layer with the uncerlying water in the thermocline, resulting in a cooler surface temperature, and less stratified (than befor the storm) layer of water.  This is referred to as the hurricane wake.  The timescale and mechanism for hurricane restratification can have implications for the local ecology, future SST conditions that might affect future hurricanes, and the meridional heat transport. This work is published here 
+<a href="files/HaneyBachman_2013.pdf">(pdf)</a>
+<a href="http://dx.doi.org/ 10.1357/002224012806770937">(doi)</a>.
