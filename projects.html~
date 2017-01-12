@@ -1,18 +1,98 @@
-<h2>Projects</h2>
-<li><h4> Surface wave/internal wave interactions </h4></li>
-Surface gravity waves produce a net drift in the direction of wave propagation called Stokes drift. For groups of waves, the Stokes drift is larger in the center of the group where the wave amplitude is larger, and then vanishes in front and behinf the group. The particle trajectories for a group of surface gravity waves with modulated amplitude are shown in the video below.
+<head>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/oPplzgEcyGc?rel=0" frameborder="0" allowfullscreen></iframe>
+<title>Research Projects</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="chrometheme/chromestyle.css" />
 
-<p>Since the strength of the Stokes varies within the wave group, there is a divergence in the mass transport. This pushes water down in the front of the group, and brings it up in the rear, creating a deep return flow. This flow can then wiggle the isopycnals of the underlying stratification, thereby making internal gravity waves. It turns out that this flux of energy from surface to internal waves is too weak to be relevant for the surface waves (the group would travel multiple times around the Earth before losing half it's amplitude!), but this may help explain the observed spectral peak in high frequency internal waves. This work is in collaboration with <a href="http://pordlabs.ucsd.edu/wryoung/"> Prof. William Young</a>, and will soon be submitted to the Journal of Fluid Mechanics.
+<script type="text/javascript" src="chromejs/chrome.js">
 
-<li><h4> Submesoscale instabilities in the Bay of Bengal</h4></li>
-The Bay of Bengal receives a tremendous amount of fresh water input from rivers in the north. These fresh waters butt up against saltier waters of the Indian Ocean creating very strong horizontal density gradients that are salt stratified. The mixed layers in and around these fronts can be as shallow as a several meters. I am currently using a linear stability code that I developed during my Ph.D.(see chapter 3 of my <a href="files/Haney_thesis.pdf">thesis</a>) to analyze these frontal regions. This work is in colloaboration with <a href="http://pordlabs.ucsd.edu/jen/"> Prof. Jennifer MacKinnon</a> and is still in the early stages, but <a href="http://tos.org/oceanography/issue/volume-29-issue-02"> here</a> is some of the latest great work that has been done on the Air-Sea Interactions in the Northern Indian Ocean - Regional Initiative (ASIRI) project.
+/***********************************************
+* Chrome CSS Drop Down Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
 
 
-<li><h4> Surface wave modified submesoscale instabilities </h4></li>
 
-<p><!-- Density fronts in the ocean mixed layer --> The Stokes drift associated with surface waves results in a Stokes Coriolis force, and a Stokes sheer force that may modify the mean and turbulent flows in the ocean mixed layer. Here is a video of symmetric instabilities in the absence of Stokes drift.<p>
+<style>
+  body{background-color:#5499C7}
+</style>
+</head>
+
+<div style="position: relative; background: url(files/LC_oil.jpg); width: 99.1%; height: 20%;">
+  
+ <center><div style="text-align:center; width: 400px; font-size: 300%; font-weight: bold; color: #fff;">
+	<p style="margin-bottom:3px">Sean Haney</p>
+	<p style="font-size:45%; margin-top:3px; margin-bottom:3px">Postdoctoral Researcher </p>
+	<p style="font-size:45%; margin-top:3px">Scripps Institution of Oceanography </p>
+    </div> </center>
+
+
+  <div style="position: absolute; bottom: 0; left: 68em; width: 400px; font-weight: bold; color: #fff;">
+    <p>Photo: Digital Globe</p>
+  </div>
+</div>
+
+<!------------------------ Menu Bar ------------------>
+<div class="chromestyle" id="chromemenu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="projects.html" rel="dropmenu1">Research Projects</a></li>
+<li><a href="pubs.html" rel="dropmenu2">Publications</a></li>
+<li><a href="files/Haney_CV.pdf" rel="dropmenu3">CV</a></li>
+</ul>
+</div>
+
+<!--1st drop down menu --> 
+<div id="dropmenu1" class="dropmenudiv">
+<a href="projects.html#SWIW">Surface wave/internal wave interactions</a>
+<a href="projects.html#BoB">Submesoscale instabilities in the Bay of Bengal</a>
+<a href="projects.html#instabilities">Surface wave modified submesoscale instabilities</a>
+<a href="projects.html#StokesShear">Stokes Drift and Shear Instabilities in Fronts</a>
+<a href="projects.html#wakes">Hurricane Wake Restratification</a>
+</div>
+
+<script type="text/javascript">
+cssdropdown.startchrome("chromemenu")
+</script>
+
+<!---------------------- End Menu Bar ------------>
+
+&nbsp;
+
+<center><div style="width:1050px;background-color:white;padding:10px">
+
+<h1><center>Research Projects<center></h1>
+
+<h3 id="SWIW"> Surface wave/internal wave interactions </h3>
+<p style="text-align:justify">Surface gravity waves produce a net drift in the direction of wave propagation called Stokes drift. For groups of waves, the Stokes drift is larger in the center of the group where the wave amplitude is larger, and then vanishes in front and behinf the group. The particle trajectories for a group of surface gravity waves with modulated amplitude are shown in the video below.</p>
+
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/oPplzgEcyGc?rel=0" frameborder="0" allowfullscreen></iframe><center>
+
+<p style="text-align:justify"> Since the strength of the Stokes varies within the wave group, there is a divergence in the mass transport. This pushes water down in the front of the group, and brings it up in the rear, creating a deep return flow. This flow can then wiggle the isopycnals of the underlying stratification, thereby making internal gravity waves. It turns out that this flux of energy from surface to internal waves is too weak to be relevant for the surface waves (the group would travel multiple times around the Earth before losing half it's amplitude!), but this may help explain the observed spectral peak in high frequency internal waves. This work is in collaboration with <a href="http://pordlabs.ucsd.edu/wryoung/"> Prof. William Young</a>, and will soon be submitted to the Journal of Fluid Mechanics. I recently gave a talk on this work at the International Symposium for Stratified Flows <a href="files/Haney_ISSF_no_movies.pdf"> (pdf)</a>. </p>
+
+&nbsp;
+<hr width="75%"/>
+&nbsp;
+<!------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------>
+
+<h3 id="BoB"> Submesoscale instabilities in the Bay of Bengal</h3>
+<p style="text-align:justify">The Bay of Bengal receives a tremendous amount of fresh water input from rivers in the north. These fresh waters butt up against saltier waters of the Indian Ocean creating very strong horizontal density gradients that are salt stratified. The mixed layers in and around these fronts can be as shallow as a several meters. I am currently using a linear stability code that I developed during my Ph.D.(see chapter 3 of my <a href="files/Haney_thesis.pdf">thesis</a>) to analyze these frontal regions. This work is in colloaboration with <a href="http://pordlabs.ucsd.edu/jen/"> Prof. Jennifer MacKinnon</a> and is still in the early stages, but <a href="http://tos.org/oceanography/issue/volume-29-issue-02"> here</a> is some of the latest great work that has been done on the Air-Sea Interactions in the Northern Indian Ocean - Regional Initiative (ASIRI) project.</p>
+
+&nbsp;
+<hr width="75%"/>
+&nbsp;
+
+<!------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------>
+
+<h3 id="instabilities"> Surface wave modified submesoscale instabilities </h3>
+
+<p style="text-align:justify"><!-- Density fronts in the ocean mixed layer --> The Stokes drift associated with surface waves results in a Stokes Coriolis force, and a Stokes sheer force that may modify the mean and turbulent flows in the ocean mixed layer.For a flow in Lagrangian (Eulerian + Stokes) thermal wind balance, several mixed layer instabilities may arize including baroclinic and symmetric instabilities. Here is a video of symmetric instabilities in the absence of Stokes drift.</p>
 
 <!--Global climate models that include submesoscale eddy parametrizations have shown systematically shallow mixed layer depths.  One possible explanation for this is that the mixing effects of waves are not included in any parametrization.  Submesoscale eddies use the available potential energy in a submesoscale front to restratify the mixed layer.  This is often referred to as mixing or stirring by eddies, but in fact, the eddies are <b>UN</b>mixing in the vertical direction.  At the same time, the waves induce a net current in the direction of propagation called stokes drift, which is strong at the surface, but decays exponentially with depth.  The stokes drift tilts vorticity anomalies into the direction of wave propagation causing counter-rotating vortices aligned (or anti-aligned) with the wave direction.  These counter-rotating vortices have zones of surface convergence and divergence.  Along the convergence zones, the surface wind stress greatly accelerates flow in the downwind direction, and thus helps to increase the vertical vorticity that creates the Langmuir cell after tilting by Stokes drift.  Since the Stokes drift has tilted a vertical vorticiy anomaly into the horizontal, that increases the cross wind and vertical velocities, and therefore mixes the upper ocean vertically.  It is this compettion between unmixing by eddies, and mixing by waves and winds that is of great interest.  To know if and when the respective mechanisms matter, i.e. is there some parameter of the larger scale flow that can help explain when the temperature gradients are important, and when the waves and winds are important.  But even more then that, one might want to know how these mechanisms interact.  To study this,-->
 
@@ -20,22 +100,50 @@ The Bay of Bengal receives a tremendous amount of fresh water input from rivers 
 <iframe width="854" height="480" src="https://www.youtube.com/embed/2kUz5l3P5bw"
 	frameborder="0" allowfullscreen></iframe> <p>
 
-The movie below shows the PV evolution in two fronts with Stokes drift. Symmetric instabilities deposit negative into the pycnocline, and lift positive <p>
+<p style="text-align:justify"> Stokes drift changes the vertical shear, and therefore the Richardson number in the upper part of the layer, so one might expect that Stokes drift affects onset or strength of symmetric instabilities. It turns out that, regardless of the Richardson number, symmetric instabilities arise when the potential vorticity (PV) takes the opposite sign to the Coriolis frequency, f. The movie below on the left shows the PV evolution in two fronts with Stokes drift. Symmetric instabilities develop in regions of very negative PV, and deposit negative PV into the pycnocline, and lift positive PV into the mixed layer. The movie below on the right shows the perturbation cross front velocity. Once symmetric instability develops you can see the cannonical banded structures that are parallel to isopycnals similar to the previous video without Stokes drift.</p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_jGGZA23g_M" frameborder="0" allowfullscreen></iframe>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/p_jQzUUAZr0" frameborder="0" allowfullscreen></iframe>
+<!--<iframe width="560" height="315" src="https://www.youtube.com/embed/_jGGZA23g_M" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/p_jQzUUAZr0" frameborder="0" allowfullscreen></iframe>-->
+
+<iframe width="500" height="281" src="https://www.youtube.com/embed/_jGGZA23g_M" frameborder="0" allowfullscreen></iframe>
+<iframe width="500" height="281" src="https://www.youtube.com/embed/p_jQzUUAZr0" frameborder="0" allowfullscreen></iframe>
 
 
-<p>This work is published here <a href="files/Haney_Fox-Kemper15.pdf">(pdf)</a>
-    <a href="http://dx.doi.org/10.1175/JPO-D-15-0044.1">(doi)</a>.
+<p style="text-align:justify">Stokes drift also modifies baroclinic instabilities, but only slightly. To read more on this, see the published paper here <a href="files/Haney_Fox-Kemper15.pdf">(pdf)</a>
+    <a href="http://dx.doi.org/10.1175/JPO-D-15-0044.1">(doi)</a>, or the talk I gave in 2015 <a href="files/Haney_CASPO.pdf"> (pdf)</a>.</p>
 
-<li><h4> Hurricane Wake Restratification </h4></li>
-<img src="files/frances_SST_color.jpg">
 
-<p> When a hurricane passes over the ocean, intense winds mix the upper ocean mixed layer with the uncerlying water in the thermocline, resulting in a cooler surface temperature, and less stratified (than befor the storm) layer of water.  This is referred to as the hurricane wake. Recently, the NASA Observatory highlighted a nice <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=88961&src=ve">image </a> of the wake from Hurricane Nicole in October 2016.<p>
+&nbsp;
+<hr width="75%"/>
+&nbsp;
+<!------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------>
+
+<h3 id="StokesShear">Stokes Drift and Shear Instabilities in Fronts </h3>
+<p style="text-align:justify">Stokes drift is often associated with instabilities that form Langmuir turbulence. These Langmuir instabilities draw energy from the Stokes shear, and from the Eulerian shear. In the <a href="#instabilities"> previous section</a> we saw that Symmetric instabilities draw energy from the Eulerian shear, but not from the Stokes shear. <a href="http://dx.doi.org/10.1016/0167-2789(96)00105-4"> Holm (1996)</a> showed analytically that a Lagrangian mean Richardson number (i.e. a Richardson number using the Lagrnagian mean shear) less than 0.25, is <em>sufficient</em> for Kelvin-Helmholtz instabilities. In addition, Holm showed that an inflection point in the Eulerian velocity is <em>necessary</em> for Kelvin-Helmholtz instabilities. We confirm these criteria with nonlinear, large eddy simulations. Kelvin-Helmholtz rolls can be seen in the video of the buoyancy evolution below.<p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JErWhYjYjUs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+<p style="text-align:justify">Since Langmuir turbulence draws energy from both the Eulerian shear and Stokes shear, the additional of geostrophic (Eulerian) shear in a front can fuel the instability. However in practice, the geostrophic shear is far weaker than the Stokes, and ageostrophic Eulerian shears. Therefore, the primary effect of a front on Langmuir turbulence is to suppress it when the front slumps and vertical stratification is increased (or enhance turbulence if the front is steepened).
+
+<p style="text-align:justify"> For more on this subject, see a talk I gave at the Ocean Science Meeting in 2016 <a href="files/Haney_OSM2016.pdf"> (pdf)</a>.</p>
+
+&nbsp;
+<hr width="75%"/>
+&nbsp;
+<!------------------------------------------------------------------------------>
+<!------------------------------------------------------------------------------>
+
+<h3 id="wakes"> Hurricane Wake Restratification </h3>
+<img width="676" height="273" src="files/frances_SST_color.jpg">
+
+<p style="text-align:justify">When a hurricane passes over the ocean, intense winds mix the upper ocean mixed layer with the uncerlying water in the thermocline, resulting in a cooler surface temperature, and less stratified (than befor the storm) layer of water.  This is referred to as the hurricane wake. The image above shows the cold wake of hurricane Frances in the Atlantic in 2004. For reference, in the bottom left corner are the islands of Hispanola and Puerto Rico. Recently, the NASA Observatory highlighted a nice <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=88961&src=ve">image </a> of the wake from Hurricane Nicole in October 2016.<p>
 
 <!-- Glad drifters:  http://gulfresearchinitiative.org/drifters-in-path-of-hurricane-isaac-provide-new-insights-on-ocean-currents/-->
 
- The timescale and mechanism for hurricane restratification can have implications for the local ecology, future SST conditions that might affect future hurricanes, and the meridional heat transport. This work is published here 
+<p style="text-align:justify">The timescale and mechanism for hurricane restratification can have implications for the local ecology, future sea surface temperature conditions that might affect future hurricanes, and the meridional heat transport. The restratification of hurricane wakes has been considered in the past as a one-dimensional process where the surface heat flux simply warms the wake. However, since a very strong wake makes very strong horizonal density fronts along the sides of the wake, two-dimensional (Ekman buoyancy fluxes) and three-dimensional (mixed layer eddies) processes may play a role in the restratification. For deep, narrow wakes mixed layer eddies and Ekman buoyancy fluxes restratify the wake as fast as solar restratification. <p>
+
+<p style="text-align:justify">This work comprised a significant portion of my PhD, and was in collaboration with is <a href="http://www.geo.brown.edu/research/Fox-Kemper/"> Prof. Baylor Fox-Kemper</a>. To read more on this topic, see our published paper here 
 <a href="files/HaneyBachman_2013.pdf">(pdf)</a>
-<a href="http://dx.doi.org/ 10.1357/002224012806770937">(doi)</a>.
+<a href="http://dx.doi.org/ 10.1357/002224012806770937">(doi)</a>, or this short talk I gave in 2012 <a href="files/Haney_OSM_2012.pdf"> (pdf)</a>.
+</div><center>
