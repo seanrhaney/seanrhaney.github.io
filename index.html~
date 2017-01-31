@@ -1,29 +1,90 @@
-<!-- HEADER -->
-<h1><center>Sean Haney<center></h1>
+<head>
+
+<title>Sean Haney Homepage</title>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="chrometheme/chromestyle.css" />
+
+<script type="text/javascript" src="chromejs/chrome.js">
+
+/***********************************************
+* Chrome CSS Drop Down Menu- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for full source code
+***********************************************/
+
+</script>
+
+
+
+<style>
+body{background-color:#5499C7}
+
+</style>
+</head>
+
+<div style="position: relative; background: url(files/LC_oil.jpg); width: 99.1%; height: 20%;">
+  
+  <center><div style="text-align:center; width: 400px; font-size: 300%; font-weight: bold; color: #fff;">
+	<p style="margin-bottom:3px">Sean Haney</p>
+	<p style="font-size:45%; margin-top:3px; margin-bottom:3px">Postdoctoral Researcher </p>
+	<p style="font-size:45%; margin-top:3px">Scripps Institution of Oceanography </p>
+    </div> </center>
+
+  <div style="position: absolute; bottom: 0; left: 68em; width: 400px; font-weight: bold; color: #fff;">
+    <p>Photo: Digital Globe</p>
+  </div>
+</div>
+
+
+<!--<img width="99.1%" height="20%" src="files/LC_oil.jpg">-->
+
+<!------------------------ Menu Bar ------------------>
+<div class="chromestyle" id="chromemenu">
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="projects.html" rel="dropmenu1">Research Projects</a></li>
+<li><a href="pubs.html" rel="dropmenu2">Publications</a></li>
+<li><a href="files/Haney_CV.pdf" rel="dropmenu3">CV</a></li>
+</ul>
+</div>
+
+<!--1st drop down menu --> 
+<div id="dropmenu1" class="dropmenudiv">
+<a href="projects.html#SWIW">Surface wave/internal wave interactions</a>
+<a href="projects.html#BoB">Submesoscale instabilities in the Bay of Bengal</a>
+<a href="projects.html#instabilities">Surface wave modified submesoscale instabilities</a>
+<a href="projects.html#StokesShear">Stokes Drift and Shear Instabilities in Fronts</a>
+<a href="projects.html#wakes">Hurricane Wake Restratification</a>
+</div>
+
+<script type="text/javascript">
+cssdropdown.startchrome("chromemenu")
+</script>
+
+<!---------------------- End Menu Bar ------------>
+
+&nbsp;
+
+<!--<h1><center>Sean Haney<center></h1>
 <h3><center>Posdoctoral Researcher<center></h3>
-<h4><center><p>Scripps Institution of Oceanography</p>
-    <p>Office: Keck OAR 254<p>
+<h4><center><p>Scripps Institution of Oceanography</p> -->
+    <center><p>Office: Keck OAR 254<p>
     <p> <a href="mailto:shaney@ucsd.edu">e-mail Sean</a><p></center><h4>
 
 <!-- IMAGE -->
-<!--<img src="files/sean_surf.jpg" alt="uh_oh">-->
-  <center><img src="files/poster_present.jpg" alt="uh_oh"></center>
+<center><img src="files/poster_present.jpg" ></center>
 	
 <!-- SOCIAL LINKS -->
-<h2 class="text-center simple-links">
-  <a href="http://colorado.academia.edu/SeanHaney" class="tooltipped" data-toggle="tooltip" title="academia.edu"><i class="icon-book"></i></a>
+<!-- <h2 class="text-center simple-links">
+  <a href="http://colorado.academia.edu/SeanHaney" class="tooltipped" data-toggle="tooltip" title="academia.edu"><i class="icon-book"></i></a>-->
 
-  <a href="files/Haney_CV.pdf">CV</a> 
-  </h2>
+&nbsp;
 
-<!-- NAVIGATION BAR -->
-<ul class="pager">
-  <li><a href="#biography">Biography</a></li>
-  <li><a href="projects.html">Research Projects</a></li>
-  <li><a href="pubs.html">Publications</a></li>
-</ul>
+<center><div style="width:1050px;background-color:white;padding:10px">
 
-<h2 id="biography">Biography</h2>
-I am a postdoctoral researcher at Scripps Institution of Oceanography working with Prof. William Young.
+<h2 id="biography"> <center>Biography <center></h2>
+<p style="text-align:justify"> I am a postdoctoral researcher at <a href="http://scripps.ucsd.edu"> Scripps Institution of Oceanography </a> working with <a href="http://pordlabs.ucsd.edu/wryoung/"> Prof. William Young</a>. We are working on the emission of internal waves by surface wave groups. I received my Ph.D. from the <a href="http://atoc.colorado.edu"> Department of Atmospheric and Oceanic Sciences</a> at the <a href="http://colorado.edu"> University of Colorado, Boulder</a> under the supervision of<a href="http://www.geo.brown.edu/research/Fox-Kemper/"> Prof. Baylor Fox-Kemper</a>. We worked on the restratification and mixing processes in the ocean surface boundary layer.</p>
 
-Sean started the PhD program in Atmospheric and Oceanic Sciences (<a href="http://atoc.colorado.edu/">ATOC</a>) in Fall 2010.  He has been a member of the <a href="http://www.geo.brown.edu/research/Fox-Kemper/">Fox-Kemper Research Group</a> since Spring 2011.  Before attending CU, Sean worked as a research assistant to <a href="http://scrippsscholars.ucsd.edu/bcornuelle">Bruce Cornuelle</a> at Scripps Institution of Oceanography.  Sean received his BS in mathematics from the College of Creative Studies, University of California, Santa Barbara.  In his free time, Sean enjoys cycling, rock climbing, surfing, hiking, juggling, and a variety of other outdoor activities.
+<p style="text-align:justify"> My research focus is on ocean dynamics and turbulence. I use geophysical fluid dynamics theory and numerical simulations to solve for oceanic flows in idealized settings. Recently, in colloaboration with <a href="http://pordlabs.ucsd.edu/jen/"> Prof. Jennifer MacKinnon</a>, I have been combining theory, modeling, and observations to analyze observations of strong, salt stratified fronts from the Bay of Bengal. </p>
+
