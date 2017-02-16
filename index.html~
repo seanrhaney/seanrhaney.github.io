@@ -25,13 +25,15 @@ body{background-color:#5499C7}
 
 <div style="position: relative; background: url(files/LC_oil.jpg); width: 99.1%; height: 20%;">
   
-  <center><div style="text-align:center; width: 400px; font-size: 300%; font-weight: bold; color: #fff;">
-	<p style="margin-bottom:3px">Sean Haney</p>
-	<p style="font-size:45%; margin-top:3px; margin-bottom:3px">Postdoctoral Researcher </p>
-	<p style="font-size:45%; margin-top:3px">Scripps Institution of Oceanography </p>
+<!--  <center><div style="text-align:center; width: 400px; font-size: 300%; font-weight: bold; color: #fff;"> -->
+<center><div style="text-align:center; width: 80%; font-size: 300%; font-weight: bold; color: #fff;">
+	<p style="margin-bottom:1%">Sean Haney</p>
+	<p style="font-size:45%; margin-top:1%; margin-bottom:3px">Postdoctoral Researcher </p>
+	<p style="font-size:45%; margin-top:1%">Scripps Institution of Oceanography </p>
     </div> </center>
 
-  <div style="position: absolute; bottom: 0; left: 68em; width: 400px; font-weight: bold; color: #fff;">
+<!--  <div style="position: absolute; bottom: 0; left: 68em; width: 400px; font-weight: bold; color: #fff;"> -->
+<div style="position: relative; bottom: -15%; left: 85%; width: 20%; font-weight: bold; color: #fff;">
     <p>Photo: Digital Globe</p>
   </div>
 </div>
@@ -73,7 +75,7 @@ cssdropdown.startchrome("chromemenu")
     <p> <a href="mailto:shaney@ucsd.edu">e-mail Sean</a><p></center><h4>
 
 <!-- IMAGE -->
-<center><img src="files/poster_present.jpg" ></center>
+<center><img src="files/poster_present.jpg" width="99.1%" ></center>
 	
 <!-- SOCIAL LINKS -->
 <!-- <h2 class="text-center simple-links">
@@ -81,7 +83,7 @@ cssdropdown.startchrome("chromemenu")
 
 &nbsp;
 
-<center><div style="width:1050px;background-color:white;padding:10px">
+<center><div style="width:95.1%;background-color:white;padding:1%">
 
 <h2 id="biography"> <center>Biography <center></h2>
 <p style="text-align:justify"> I am a postdoctoral researcher at <a href="http://scripps.ucsd.edu"> Scripps Institution of Oceanography </a> working with <a href="http://pordlabs.ucsd.edu/wryoung/"> Prof. William Young</a>. We are working on the emission of internal waves by surface wave groups. I received my Ph.D. from the <a href="http://atoc.colorado.edu"> Department of Atmospheric and Oceanic Sciences</a> at the <a href="http://colorado.edu"> University of Colorado, Boulder</a> under the supervision of<a href="http://www.geo.brown.edu/research/Fox-Kemper/"> Prof. Baylor Fox-Kemper</a>. We worked on the restratification and mixing processes in the ocean surface boundary layer.</p>
