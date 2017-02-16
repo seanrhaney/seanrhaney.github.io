@@ -18,23 +18,28 @@
 
 
 <style>
-  body{background-color:#5499C7}
+body{background-color:#5499C7}
+
 </style>
 </head>
 
 <div style="position: relative; background: url(files/LC_oil.jpg); width: 99.1%; height: 20%;">
-  
- <center><div style="text-align:center; width: 400px; font-size: 300%; font-weight: bold; color: #fff;">
-	<p style="margin-bottom:3px">Sean Haney</p>
-	<p style="font-size:45%; margin-top:3px; margin-bottom:3px">Postdoctoral Researcher </p>
-	<p style="font-size:45%; margin-top:3px">Scripps Institution of Oceanography </p>
+
+<!--  <center><div style="text-align:center; width: 400px; font-size: 300%; font-weight: bold; color: #fff;"> -->
+<center><div style="text-align:center; width: 80%; font-size: 300%; font-weight: bold; color: #fff;">
+        <p style="margin-bottom:1%">Sean Haney</p>
+        <p style="font-size:45%; margin-top:1%; margin-bottom:3px">Postdoctoral Researcher </p>
+        <p style="font-size:45%; margin-top:1%">Scripps Institution of Oceanography </p>
     </div> </center>
 
-
-  <div style="position: absolute; bottom: 0; left: 68em; width: 400px; font-weight: bold; color: #fff;">
+<!--  <div style="position: absolute; bottom: 0; left: 68em; width: 400px; font-weight: bold; color: #fff;"> -->
+<div style="position: relative; bottom: -15%; left: 85%; width: 20%; font-weight: bold; color: #fff;">
     <p>Photo: Digital Globe</p>
   </div>
 </div>
+
+
+<!--<img width="99.1%" height="20%" src="files/LC_oil.jpg">-->
 
 <!------------------------ Menu Bar ------------------>
 <div class="chromestyle" id="chromemenu">
@@ -46,7 +51,7 @@
 </ul>
 </div>
 
-<!--1st drop down menu --> 
+<!--1st drop down menu -->
 <div id="dropmenu1" class="dropmenudiv">
 <a href="projects.html#SWIW">Surface wave/internal wave interactions</a>
 <a href="projects.html#BoB">Submesoscale instabilities in the Bay of Bengal</a>
@@ -63,15 +68,95 @@ cssdropdown.startchrome("chromemenu")
 
 &nbsp;
 
+<style type="text/css">
+.video-container {
+position:relative;
+padding-bottom:31%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+position:absolute;
+top:0%;
+left:0%;
+width:100%;
+height:100%;
+}
+
+#video-container2 {
+position:relative;
+padding-bottom:28%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.left iframe, .video-container object, .video-container embed {
+position:absolute;
+top:0%;
+left:0%;
+width:45%;
+height:100%;
+float: left;
+}
+
+.right iframe, .video-container object, .video-container embed {
+position:absolute;
+top:0%;
+left:50%;
+width:45%;
+height:100%;
+float: right;
+}
+
+.video-container-skinny {
+position:relative;
+padding-bottom:16.25%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.video-container-skinny iframe, .video-container object, .video-container embed {
+position:absolute;
+top:0%;
+left:0%;
+width:100%;
+height:100%;
+}
+
+.video-container-fat {
+position:relative;
+padding-bottom:38%;
+padding-top:30px;
+height:0;
+overflow:hidden;
+}
+
+.video-container-fat iframe, .video-container object, .video-container embed {
+position:absolute;
+top:0%;
+left:20%;
+width:60%;
+height:100%;
+}
+</style>
+
 <!-- <center><div style="width:1050px;background-color:white;padding:10px"> -->
-<center><div style="width:90%;background-color:white;padding:1%">
+<center><div style="width:96.1%;background-color:white;padding:1%">
 
 <h1><center>Research Projects<center></h1>
 
 <h3 id="SWIW"> Surface wave/internal wave interactions </h3>
 <p style="text-align:justify">Surface gravity waves produce a net drift in the direction of wave propagation called Stokes drift. For groups of waves, the Stokes drift is larger in the center of the group where the wave amplitude is larger, and then vanishes in front and behinf the group. The particle trajectories for a group of surface gravity waves with modulated amplitude are shown in the video below.</p>
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/oPplzgEcyGc?rel=0" frameborder="0" allowfullscreen></iframe><center>
+<!--- Aspect ratio is 0.5625 -->
+
+<center><div class="video-container"><iframe src="https://www.youtube.com/embed/oPplzgEcyGc?rel=0" frameborder="0" allowfullscreen></iframe> </div><center>
+
+<!-- <center><iframe width="99%" height="45%" src="https://www.youtube.com/embed/oPplzgEcyGc?rel=0" frameborder="0" allowfullscreen></iframe><center> -->
 
 <p style="text-align:justify"> Since the strength of the Stokes varies within the wave group, there is a divergence in the mass transport. This pushes water down in the front of the group, and brings it up in the rear, creating a deep return flow. This flow can then wiggle the isopycnals of the underlying stratification, thereby making internal gravity waves. It turns out that this flux of energy from surface to internal waves is too weak to be relevant for the surface waves (the group would travel multiple times around the Earth before losing half it's amplitude!), but this may help explain the observed spectral peak in high frequency internal waves. This work is in collaboration with <a href="http://pordlabs.ucsd.edu/wryoung/"> Prof. William Young</a>, and has been submitted to the Journal of Fluid Mechanics <a href="files/Haney_Young_2017_submitted.pdf">(pdf)</a>. I recently gave a talk on this work at the International Symposium for Stratified Flows <a href="files/Haney_ISSF_no_movies.pdf"> (pdf)</a>. </p>
 
@@ -95,16 +180,20 @@ cssdropdown.startchrome("chromemenu")
 
 <p style="text-align:justify"> The Stokes drift associated with surface waves results in a Stokes Coriolis force, and a Stokes sheer force that may modify the mean and turbulent flows in the ocean mixed layer.For a flow in Lagrangian (Eulerian + Stokes) thermal wind balance, several mixed layer instabilities may arize including baroclinic and symmetric instabilities. Here is a video of symmetric instabilities in the absence of Stokes drift.</p>
 
-<iframe width="854" height="480" src="https://www.youtube.com/embed/2kUz5l3P5bw"
-	frameborder="0" allowfullscreen></iframe> <p>
+<center><div class="video-container-fat"><iframe width="854" height="480" src="https://www.youtube.com/embed/2kUz5l3P5bw"
+	frameborder="0" allowfullscreen></iframe> <p></div></center>
 
 <p style="text-align:justify"> Stokes drift changes the vertical shear, and therefore the Richardson number in the upper part of the layer, so one might expect that Stokes drift affects onset or strength of symmetric instabilities. It turns out that, regardless of the Richardson number, symmetric instabilities arise when the potential vorticity (PV) takes the opposite sign to the Coriolis frequency, f. The movie below on the left shows the PV evolution in two fronts with Stokes drift. Symmetric instabilities develop in regions of very negative PV, and deposit negative PV into the pycnocline, and lift positive PV into the mixed layer. The movie below on the right shows the perturbation cross front velocity. Once symmetric instability develops you can see the cannonical banded structures that are parallel to isopycnals similar to the previous video without Stokes drift.</p>
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/_jGGZA23g_M" frameborder="0" allowfullscreen></iframe>
 <iframe width="560" height="315" src="https://www.youtube.com/embed/p_jQzUUAZr0" frameborder="0" allowfullscreen></iframe>-->
 
-<iframe width="500" height="281" src="https://www.youtube.com/embed/_jGGZA23g_M" frameborder="0" allowfullscreen></iframe>
-<iframe width="500" height="281" src="https://www.youtube.com/embed/p_jQzUUAZr0" frameborder="0" allowfullscreen></iframe>
+<center>
+<div id="video-container2">
+  <div class="left"><iframe width="500" height="281" src="https://www.youtube.com/embed/_jGGZA23g_M" frameborder="0" allowfullscreen></iframe></div>
+  <div class="right"><iframe width="500" height="281" src="https://www.youtube.com/embed/p_jQzUUAZr0" frameborder="0" allowfullscreen></iframe></div>
+</div>
+</center>
 
 
 <p style="text-align:justify">Stokes drift also modifies baroclinic instabilities, but only slightly. To read more on this, see the published paper here <a href="files/Haney_Fox-Kemper15.pdf">(pdf)</a>
@@ -122,12 +211,12 @@ cssdropdown.startchrome("chromemenu")
 <p style="text-align:justify">Stokes drift is often associated with instabilities that form Langmuir turbulence. These Langmuir instabilities draw energy from the Stokes shear, and from the Eulerian shear. In the <a href="#instabilities"> previous section</a> we saw that Symmetric instabilities draw energy from the Eulerian shear, but not from the Stokes shear. <a href="http://dx.doi.org/10.1016/0167-2789(96)00105-4"> Holm (1996)</a> showed analytically that a Lagrangian mean Richardson number (i.e. a Richardson number using the Lagrnagian mean shear) less than 0.25, is <em>sufficient</em> for Kelvin-Helmholtz instabilities. In addition, Holm showed that an inflection point in the Eulerian velocity is <em>necessary</em> for Kelvin-Helmholtz instabilities. We confirm these criteria with nonlinear, large eddy simulations. Kelvin-Helmholtz rolls can be seen in the video of the buoyancy evolution below.<p>
 
 <!--<iframe width="560" height="315" src="https://www.youtube.com/embed/JErWhYjYjUs?rel=0" frameborder="0" allowfullscreen></iframe>-->
-<iframe width="1050" height="210" src="https://www.youtube.com/embed/JErWhYjYjUs?rel=0" frameborder="0" allowfullscreen></iframe>
+<center><div class="video-container-skinny"><iframe width="1050" height="210" src="https://www.youtube.com/embed/JErWhYjYjUs?rel=0" frameborder="0" allowfullscreen></iframe></div></center>
 
 <p style="text-align:justify">Since Langmuir turbulence draws energy from both the Eulerian shear and Stokes shear, the additional of geostrophic (Eulerian) shear in a front can fuel the instability. However in practice, the geostrophic shear is far weaker than the Stokes, and ageostrophic Eulerian shears. Therefore, the primary effect of a front on Langmuir turbulence is to suppress it when the front slumps and vertical stratification is increased (or enhance turbulence if the front is steepened).</p>
 
-<iframe width="1050" height="210" src="https://www.youtube.com/embed/DcxgLsrpnrE" frameborder="0" allowfullscreen></iframe>
-<iframe width="1050" height="210" src="https://www.youtube.com/embed/ZCqiLzJrAOg" frameborder="0" allowfullscreen></iframe>
+<center><div class="video-container-skinny"><iframe width="1050" height="210" src="https://www.youtube.com/embed/DcxgLsrpnrE" frameborder="0" allowfullscreen></iframe></div></center>
+<center><div class="video-container-skinny"><iframe width="1050" height="210" src="https://www.youtube.com/embed/ZCqiLzJrAOg" frameborder="0" allowfullscreen></iframe></div></center>
 
 <p style="text-align:justify"> For more on this subject, see a talk I gave at the Ocean Science Meeting in 2016 <a href="files/Haney_OSM2016.pdf"> (pdf)</a>.</p>
 
@@ -139,7 +228,7 @@ cssdropdown.startchrome("chromemenu")
 <!------------------------------------------------------------------------------>
 
 <h3 id="wakes"> Hurricane Wake Restratification </h3>
-<img width="676" height="273" src="files/frances_SST_color.jpg">
+<img width="95%" src="files/frances_SST_color.jpg">
 
 <p style="text-align:justify">When a hurricane passes over the ocean, intense winds mix the upper ocean mixed layer with the uncerlying water in the thermocline, resulting in a cooler surface temperature, and less stratified (than befor the storm) layer of water.  This is referred to as the hurricane wake. The image above shows the cold wake of hurricane Frances in the Atlantic in 2004. For reference, in the bottom left corner are the islands of Hispanola and Puerto Rico. Recently, the NASA Observatory highlighted a nice <a href="http://earthobservatory.nasa.gov/IOTD/view.php?id=88961&src=ve">image </a> of the wake from Hurricane Nicole in October 2016.<p>
 

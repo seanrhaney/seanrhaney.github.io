@@ -18,23 +18,28 @@
 
 
 <style>
-  body{background-color:#5499C7}
+body{background-color:#5499C7}
+
 </style>
 </head>
 
 <div style="position: relative; background: url(files/LC_oil.jpg); width: 99.1%; height: 20%;">
-  
- <center><div style="text-align:center; width: 400px; font-size: 300%; font-weight: bold; color: #fff;">
-	<p style="margin-bottom:3px">Sean Haney</p>
-	<p style="font-size:45%; margin-top:3px; margin-bottom:3px">Postdoctoral Researcher </p>
-	<p style="font-size:45%; margin-top:3px">Scripps Institution of Oceanography </p>
+
+<!--  <center><div style="text-align:center; width: 400px; font-size: 300%; font-weight: bold; color: #fff;"> -->
+<center><div style="text-align:center; width: 80%; font-size: 300%; font-weight: bold; color: #fff;">
+        <p style="margin-bottom:1%">Sean Haney</p>
+        <p style="font-size:45%; margin-top:1%; margin-bottom:3px">Postdoctoral Researcher </p>
+        <p style="font-size:45%; margin-top:1%">Scripps Institution of Oceanography </p>
     </div> </center>
 
-
-  <div style="position: absolute; bottom: 0; left: 68em; width: 400px; font-weight: bold; color: #fff;">
+<!--  <div style="position: absolute; bottom: 0; left: 68em; width: 400px; font-weight: bold; color: #fff;"> -->
+<div style="position: relative; bottom: -15%; left: 85%; width: 20%; font-weight: bold; color: #fff;">
     <p>Photo: Digital Globe</p>
   </div>
 </div>
+
+
+<!--<img width="99.1%" height="20%" src="files/LC_oil.jpg">-->
 
 <!------------------------ Menu Bar ------------------>
 <div class="chromestyle" id="chromemenu">
@@ -46,7 +51,7 @@
 </ul>
 </div>
 
-<!--1st drop down menu --> 
+<!--1st drop down menu -->
 <div id="dropmenu1" class="dropmenudiv">
 <a href="projects.html#SWIW">Surface wave/internal wave interactions</a>
 <a href="projects.html#BoB">Submesoscale instabilities in the Bay of Bengal</a>
@@ -63,15 +68,18 @@ cssdropdown.startchrome("chromemenu")
 
 &nbsp;
 
+
 <!-- <center><div style="width:1050px;background-color:white;padding:10px"> -->
-<center><div style="width:90%;background-color:white;padding:1%">
+<center><div style="width:99.1%;background-color:white;padding:1%">
 
 <h1><center>Research Projects<center></h1>
 
 <h3 id="SWIW"> Surface wave/internal wave interactions </h3>
 <p style="text-align:justify">Surface gravity waves produce a net drift in the direction of wave propagation called Stokes drift. For groups of waves, the Stokes drift is larger in the center of the group where the wave amplitude is larger, and then vanishes in front and behinf the group. The particle trajectories for a group of surface gravity waves with modulated amplitude are shown in the video below.</p>
 
-<center><iframe width="560" height="315" src="https://www.youtube.com/embed/oPplzgEcyGc?rel=0" frameborder="0" allowfullscreen></iframe><center>
+<!--- Aspect ratio is 0.5625 -->
+
+<center><iframe width="99%" height="5%" src="https://www.youtube.com/embed/oPplzgEcyGc?rel=0" frameborder="0" allowfullscreen></iframe><center>
 
 <p style="text-align:justify"> Since the strength of the Stokes varies within the wave group, there is a divergence in the mass transport. This pushes water down in the front of the group, and brings it up in the rear, creating a deep return flow. This flow can then wiggle the isopycnals of the underlying stratification, thereby making internal gravity waves. It turns out that this flux of energy from surface to internal waves is too weak to be relevant for the surface waves (the group would travel multiple times around the Earth before losing half it's amplitude!), but this may help explain the observed spectral peak in high frequency internal waves. This work is in collaboration with <a href="http://pordlabs.ucsd.edu/wryoung/"> Prof. William Young</a>, and has been submitted to the Journal of Fluid Mechanics <a href="files/Haney_Young_2017_submitted.pdf">(pdf)</a>. I recently gave a talk on this work at the International Symposium for Stratified Flows <a href="files/Haney_ISSF_no_movies.pdf"> (pdf)</a>. </p>
 
